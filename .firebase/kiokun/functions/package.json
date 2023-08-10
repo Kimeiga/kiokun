@@ -1,0 +1,21 @@
+{
+  "name": "kiokun2",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "chinese-lexicon": "^1.0.43",
+    "chinese-tokenizer": "^2.4.0",
+    "coupling-dict-chinese-updated": "^1.0.5",
+    "firebase": "^9.23.0",
+    "sveltefire": "^0.4.1",
+    "@sveltejs/kit": "^1.20.4",
+    "firebase-frameworks": "^0.10.4",
+    "firebase-functions": "^4.3.0",
+    "firebase-admin": "^11.0.1"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "18"
+  }
+}
