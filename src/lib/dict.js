@@ -1,7 +1,7 @@
-// import chineseTokenizer from 'chinese-tokenizer';
-// // import cedict from './cedict_ts.u8';
+import chineseTokenizer from 'chinese-tokenizer';
+// import cedict from './cedict_ts.u8';
 // // //  console.log(process.cwd());
-// export const tokenize = chineseTokenizer.loadFile('./src/lib/cedict_ts.u8');
+export const tokenize = chineseTokenizer.loadFile('./src/lib/cedict_ts.u8');
 
 
 // // import fs from 'fs';
