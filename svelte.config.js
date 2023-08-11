@@ -1,10 +1,10 @@
 // import adapter from '@sveltejs/adapter-auto';
-import { importAssets } from 'svelte-preprocess-import-assets'
+// import { importAssets } from 'svelte-preprocess-import-assets'
 // import adapter from '@sveltejs/adapter-vercel';
 import adapter from '@sveltejs/adapter-node';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: [importAssets()],
+	// preprocess: [importAssets()],
 	assetsInclude: ['**/*.u8'],
 	kit: {
 		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.
