@@ -1,7 +1,7 @@
 // import adapter from '@sveltejs/adapter-auto';
 import { importAssets } from 'svelte-preprocess-import-assets'
-import adapter from '@sveltejs/adapter-vercel';
-// import adapter from '@sveltejs/adapter-node';
+// import adapter from '@sveltejs/adapter-vercel';
+import adapter from '@sveltejs/adapter-node';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	preprocess: [importAssets()],
