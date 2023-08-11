@@ -32,6 +32,7 @@
 		"@sveltejs/adapter-vercel": "^3.0.3",
 		"chinese-lexicon": "^1.0.43",
 		"chinese-tokenizer": "^2.4.0",
+		"chinese-tokenizer-module": "^1.0.1",
 		"coupling-dict-chinese-updated": "^1.0.5",
 		"firebase": "^9.23.0",
 		"sveltefire": "^0.4.1"
